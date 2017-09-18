@@ -1,3 +1,5 @@
+package br.com.estudosjava.introducao;
+
 public class ImprimindoVariaveis {
     /***
      *Esse é o main do projeto

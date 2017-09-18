@@ -1,3 +1,5 @@
+package br.com.estudosjava.introducao.controlefluxo;
+
 public class ControleFluxo6 {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package br.com.estudosjava.introducao.arrays;
+
 public class Arrays1 {
 
     public static void main(String[] args) {
