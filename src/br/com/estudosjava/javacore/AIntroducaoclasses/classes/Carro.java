@@ -1,4 +1,4 @@
-package br.com.estudosjava.javacore.Introducaoclasses.classes;
+package br.com.estudosjava.javacore.AIntroducaoclasses.classes;
 
 public class Carro {
 

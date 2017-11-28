@@ -1,6 +1,6 @@
-package br.com.estudosjava.javacore.Introducaoclasses.teste;
+package br.com.estudosjava.javacore.AIntroducaoclasses.teste;
 
-import br.com.estudosjava.javacore.Introducaoclasses.classes.Estudante;
+import br.com.estudosjava.javacore.AIntroducaoclasses.classes.Estudante;
 
 public class EstudanteTest {
 
