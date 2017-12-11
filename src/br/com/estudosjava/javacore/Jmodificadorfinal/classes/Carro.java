@@ -1,18 +1,11 @@
 package br.com.estudosjava.javacore.Jmodificadorfinal.classes;
 
-public class Carro {
+public final class Carro {
 
-    private static double velocidadeMax;
+    private static final double VELOCIDADE_lIMITE = 200;
     private String nome;
     private String modelo;
 
-    public static double getVelocidadeMax() {
-        return velocidadeMax;
-    }
-
-    public static void setVelocidadeMax(double velocidadeMax) {
-        Carro.velocidadeMax = velocidadeMax;
-    }
 
     @Override
     public String toString() {
@@ -20,6 +13,10 @@ public class Carro {
                 "nome='" + nome + '\'' +
                 ", modelo='" + modelo + '\'' +
                 '}';
+    }
+
+    public static double getVelocidadelimite() {
+        return VELOCIDADE_lIMITE;
     }
 
     public String getNome() {
