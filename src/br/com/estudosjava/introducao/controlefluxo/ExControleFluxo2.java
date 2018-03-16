@@ -5,8 +5,10 @@ public class ExControleFluxo2 {
 
         byte dia = 1;
 
+
+
         switch (dia) {
-            case 1:
+            case  10:
                 System.out.println("É domingo, não é dia util. ");
                 break;
             case 2:

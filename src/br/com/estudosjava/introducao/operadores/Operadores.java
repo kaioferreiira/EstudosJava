@@ -1,22 +1,30 @@
 package br.com.estudosjava.introducao.operadores;
 
 public class Operadores {
-    /***
-     *
-     * @param args metodo main
-     */
+
     public static void main(String[] args) {
 
-        int numero1 = 10;
-        int numero2 =20;
-        int soma = numero1+numero2;
-        System.out.println("result: " + (numero1+numero2));
+        int salario = 2000;
 
-        int salario = 1800;
         // = -= += *= /= %=
+        //salario = salario + 500;
+        salario += 500;
+        System.out.println(" O salario soma : " + salario);
+
+        //salario = salario - 100;
+        salario -= 100;
+        System.out.println(" O salario subtrair: " + salario);
+
+        //salario = salario / 10;
+        salario /= 10;
+        System.out.println(" O salario dividir: " + salario);
+
+        //salario = salario * 1000;
         salario *= 1000;
+        System.out.println(" O salario multiplicar : " + salario);
 
-        System.out.println(" fdp  kk: " + salario);
-
+        //salario = salario % 2;
+        salario %= 2;
+        System.out.println(" O resto é: " + salario);
     }
 }

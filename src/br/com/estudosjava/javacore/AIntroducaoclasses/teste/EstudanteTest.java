@@ -8,8 +8,8 @@ public class EstudanteTest {
         Estudante kaio = new Estudante();
 
         kaio.nome = "kaio";
-        kaio.matricula = "1212";
-        kaio.idade = 24;
+        kaio.matricula = "123456789";
+        kaio.idade = 25;
 
         System.out.println(kaio.idade);
         System.out.println(kaio.matricula);

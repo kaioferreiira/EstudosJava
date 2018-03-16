@@ -3,17 +3,14 @@ package br.com.estudosjava.introducao.controlefluxo;
 public class ControleDeFluxo1 {
 
     public static void main(String[] args) {
+        int idade = 10;
 
-        int idade = 20;
-        float salario = 900;
-
-        if (idade > 18 && salario > 1000) {
-            System.out.printf("Entrou");
-        } else if (idade < 18 && salario < 1000) {
-            System.out.println("Deu ruimmm ");
+        if (idade <= 15) {
+            System.out.println("Essa pessoa é uma crinça");
+        } else if (idade >= 15 && idade < 18) {
+            System.out.println("Essa pessoa é um adolecente");
         } else {
-            System.out.println("ueee");
+            System.out.println("Essa pessoa é um adulto");
         }
-
     }
 }

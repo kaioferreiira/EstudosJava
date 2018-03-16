@@ -1,6 +1,8 @@
-package br.com.estudosjava.javacore.Npolimorfimo.classes;
+package br.com.estudosjava.javacore.Npolimorfimo.classes.classes;
 
-public class Vendedor extends  Funcionario{
+import br.com.estudosjava.javacore.Npolimorfimo.classes.classes.Funcionario;
+
+public class Vendedor extends Funcionario {
 
     private double totalVendas;
 

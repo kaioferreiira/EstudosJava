@@ -1,8 +1,11 @@
-package br.com.estudosjava.javacore.Npolimorfimo.classes;
+package br.com.estudosjava.javacore.Npolimorfimo.classes.classes;
 
-public class Gerente extends  Funcionario {
+import br.com.estudosjava.javacore.Npolimorfimo.classes.classes.Funcionario;
+
+public class Gerente extends Funcionario {
 
     private double participacaoLucros;
+
     public Gerente(String nome, double salario, double participacaoLucros) {
         super(nome, salario);
         this.participacaoLucros = participacaoLucros;

@@ -1,4 +1,4 @@
-package br.com.estudosjava.javacore.Npolimorfimo.classes;
+package br.com.estudosjava.javacore.Npolimorfimo.classes.classes;
 
 public class RelatorioPagamento {
 

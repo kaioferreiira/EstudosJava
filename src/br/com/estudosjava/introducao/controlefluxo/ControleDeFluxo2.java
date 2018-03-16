@@ -1,9 +1,22 @@
 package br.com.estudosjava.introducao.controlefluxo;
 
+import java.util.Scanner;
+
 public class ControleDeFluxo2 {
     public static void main(String[] args) {
 
-        double salario = 100;
+        /*
+        * */
+        double salario;
+        String nome;
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("Digite seu nome: ");
+        nome = s.nextLine();
+
+        System.out.println("Digite o seu salario");
+        salario =  s.nextDouble();
 
         if (salario < 1000) {
             salario = (salario + (salario * 0.05));
@@ -15,6 +28,6 @@ public class ControleDeFluxo2 {
             salario = (salario + (salario * 0.20));
         }
 
-        System.out.printf("o total e " + salario);
+        System.out.printf("O " + nome + " ira pagar um imposto de: " + salario );
     }
 }
