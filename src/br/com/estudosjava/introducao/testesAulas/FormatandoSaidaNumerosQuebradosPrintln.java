@@ -1,4 +1,4 @@
-package br.com.estudosjava.introducao;
+package br.com.estudosjava.introducao.testesAulas;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -14,6 +14,9 @@ public class FormatandoSaidaNumerosQuebradosPrintln {
 
         System.out.println("Meu primeiro número formatado com Println: " + numeroFormatado.format(numeroFlutuante1));
         System.out.println("Meu primeiro número formatado com Println: " + numeroFormatado.format(numeroFlutuante2));
+
+
+
 
     }
 }

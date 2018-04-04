@@ -1,7 +1,7 @@
 
 
 
-package br.com.estudosjava.introducao;
+package br.com.estudosjava.introducao.testesAulas;
 
 public class TesteTipoPrimitivo {
 

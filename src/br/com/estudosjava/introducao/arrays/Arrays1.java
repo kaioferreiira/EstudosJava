@@ -10,8 +10,8 @@ public class Arrays1 {
         idades[2] = 40;
 
         System.out.println("idade 1: " + idades[0]);
-
-        int[] idades2 = new int[3];
+        System.out.println("idade 2: " + idades[1]);
+        System.out.println("idade 3: " + idades[2]);
 
 
     }

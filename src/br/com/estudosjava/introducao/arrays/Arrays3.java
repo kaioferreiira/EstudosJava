@@ -9,15 +9,20 @@ public class Arrays3 {
         int[] numeros2 = {1,2,3,4,5};
         int[] numero3 = new int[]{1,2,3,4,5};
 
-        for (int i= 0; i < numeros2.length; i++){
+        int i;
+        for (i=0 ; i < numeros2.length; i++){
             System.out.println("numeros: " + numeros2[i]);
         }
 
-        System.out.println(" ********************************************************");
-
-        for (int aux : numeros2){
+        for (int aux: numeros2) {
             System.out.println("numeros: " + aux);
         }
+
+//        System.out.println(" ********************************************************");
+
+//        for (int aux : numeros2){
+//            System.out.println("numeros: " + aux);
+//        }
 
 
     }

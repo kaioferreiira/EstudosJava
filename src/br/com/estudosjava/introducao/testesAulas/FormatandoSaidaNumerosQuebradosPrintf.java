@@ -1,4 +1,4 @@
-package br.com.estudosjava.introducao;
+package br.com.estudosjava.introducao.testesAulas;
 
 import java.util.Scanner;
 

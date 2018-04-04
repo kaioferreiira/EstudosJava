@@ -3,13 +3,15 @@ package br.com.estudosjava.introducao.controlefluxo;
 public class ExercicioControleFluxo3 {
 
     public static void main(String[] args) {
-        //imprimir os pares  ate 100.000
 
-        int numero = 100000;
+
+        int numero = 100;
 
         for (int i = 0; i<= numero; i++){
             if(i % 2 == 0){
-                System.out.println("par" + i);
+                System.out.println("par " + i);
+            }else{
+                System.out.println("Impar " + i);
             }
         }
     }
