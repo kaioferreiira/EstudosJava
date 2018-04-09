@@ -9,13 +9,13 @@ public class Arrays3 {
         int[] numeros2 = {1,2,3,4,5};
         int[] numero3 = new int[]{1,2,3,4,5};
 
-        int i;
-        for (i=0 ; i < numeros2.length; i++){
-            System.out.println("numeros: " + numeros2[i]);
-        }
 
-        for (int aux: numeros2) {
-            System.out.println("numeros: " + aux);
+       // for (int i=0 ; i < numeros.length; i++){
+       //     System.out.println("numeros: " + numeros2[i]);
+       // }
+
+        for (int aux: numeros) {
+            numeros[aux] = aux;
         }
 
 //        System.out.println(" ********************************************************");
