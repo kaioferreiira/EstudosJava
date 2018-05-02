@@ -4,11 +4,14 @@ public class Arrays4 {
 
     public static void main(String[] args) {
 
-        String[] nomes = {"kaio","joão","lucas"};
+        String nomes = "30";
 
-        for (String nome :  nomes){
-            System.out.println("nomes: " + nome);
-        }
+        int i ;
+         i = Integer.parseInt(nomes);
+
+
+        System.out.println(nomes + 10 );
+
 
 
     }
