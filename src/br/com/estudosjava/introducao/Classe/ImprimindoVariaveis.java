@@ -1,4 +1,4 @@
-package br.com.estudosjava.javacore.TiposPrimitivos.Classe;
+package br.com.estudosjava.introducao.Classe;
 
 public class ImprimindoVariaveis {
     public static void main(String[] args) {

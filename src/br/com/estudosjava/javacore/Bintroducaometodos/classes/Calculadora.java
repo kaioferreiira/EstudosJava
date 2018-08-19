@@ -2,16 +2,19 @@ package br.com.estudosjava.javacore.Bintroducaometodos.classes;
 
 public class Calculadora {
 
-    public void somaDoisNumeros(int num1, int num2) {
-        System.out.println(num1 + num2);
+    public double somaDoisNumeros(int num1, int num2) {
+        double soma =  num1 + num2;
+        return soma;
     }
 
-    public void subtraiDoisNumeros(int num1, int num2) {
-        System.out.println(num1 - num2);
+    public double subtraiDoisNumeros(int num1, int num2) {
+        double subtrai =  num1 - num2;
+        return subtrai;
     }
 
-    public void multiplicaDoisNumeros(int num1, int num2) {
-        System.out.println(num1 * num2);
+    public double multiplicaDoisNumeros(int num1, int num2) {
+        double multiplica =  num1 + num2;
+        return multiplica;
     }
 
     public double divideDoisNumeros(double num1, double num2) {

@@ -11,7 +11,7 @@ public class HerancaTest {
 
         Funcionario f = new Funcionario();
 
-        p.setNome("0Kaio");
+        p.setNome("Kaio");
         p.setCpf("13545453");
 
         Endereco end = new Endereco();

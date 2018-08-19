@@ -14,10 +14,10 @@ public class Estudante {
     private int idade;
     private double[] notas;
 
+
     public void imprimeDados() {
         System.out.println("nome" + this.nome);
         System.out.println("idade" + this.idade);
-
         if (this.notas != null) {
             for (double n : this.notas) {
                 System.out.println("nota: " + n);
@@ -40,6 +40,7 @@ public class Estudante {
         }
 
     }
+
 
     public String getNome(){
         return this.nome;

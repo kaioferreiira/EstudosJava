@@ -14,6 +14,7 @@ public class EstudanteTest {
 
         Estudante estudante =  new Estudante();
         estudante.setNome("kaio");
+
         estudante.setIdade(24);
         double notas[]= {1,2,3.15};
         estudante.setNotas(notas);

@@ -12,7 +12,15 @@ public class ProfessorTest {
         prof.nome = "kaio";
         prof.rg = "mg4 56";
 
+        Professor prof2 = new Professor();
+        prof2.cpf = "123123132";
+        prof2.matricula = "12331";
+        prof2.nome = "Lucas";
+        prof2.rg = "sss 56";
+
         prof.imprimi();
+        System.out.println(" ----  -----   -------   ");
+        prof2.imprimi();
 
     }
 }
