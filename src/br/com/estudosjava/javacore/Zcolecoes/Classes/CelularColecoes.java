@@ -27,9 +27,21 @@ public class CelularColecoes {
         if(this == obj) return true; // se o obj na memoria for igual ao que esta sendo passado.
         if(this.getClass() != obj.getClass()) return false; //verifica se o objeto é do tipo que quero testar.
         CelularColecoes outroCelular =  (CelularColecoes) obj;
-
         //return  IMEI != null  ? IMEI.equals(outroCelular.getIMEI()) : false;
         return  IMEI != null  && IMEI.equals(outroCelular.getIMEI());
+    }
+
+    //PARAMETROS PARA TESTE HASHCODE
+    //Se x.equals
+    //Metodo HashCode - SOBESCRITO
+    @Override
+    public int hashCode() {
+        return IMEI != null ? IMEI.hashCode() : 1;
+    }
+
+    @Override
+    public String toString() {
+        return "Celular: " + nome + " IMEI: " + IMEI;
     }
 
     public String getNome() {
