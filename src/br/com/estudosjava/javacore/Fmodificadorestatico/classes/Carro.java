@@ -12,19 +12,17 @@ public class Carro {
     }
 
     public Carro(){
-
     }
 
     public static void setVelocidadeLimite(double velocidadeLimite){
          Carro.velocidadeLimite = velocidadeLimite;
     }
 
-    public static  double getVelocidadeLimite(double velocidadeLimite){
+    public static double getVelocidadeLimite() {
         return velocidadeLimite;
     }
 
-    public  void imprime(){
-
+    public void imprime(){
         System.out.println("--------------------------------");
         System.out.println(this.nome);
         System.out.println(this.velocideMaxima);

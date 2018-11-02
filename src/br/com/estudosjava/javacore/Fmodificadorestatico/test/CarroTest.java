@@ -13,13 +13,15 @@ public class CarroTest {
 
         c1.imprime();
         c2.imprime();
+        c2.imprime();
 
         System.out.println(" ########### ");
 
-        Carro.setVelocidadeLimite(123);
+        c1.setVelocidadeLimite(123);
 
         c1.imprime();
         c2.imprime();
+        c3.imprime();
 
 
     }

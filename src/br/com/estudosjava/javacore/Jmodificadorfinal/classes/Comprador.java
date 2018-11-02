@@ -4,7 +4,12 @@ public class Comprador  {
 
     private String nome;
 
-
+    @Override
+    public String toString() {
+        return "Comprador{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
 
     public String getNome() {
         return nome;

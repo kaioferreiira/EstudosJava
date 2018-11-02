@@ -2,7 +2,8 @@ package br.com.estudosjava.javacore.Jmodificadorfinal.classes;
 
 public final class Carro {
 
-    private static final double VELOCIDADE_lIMITE = 200;
+    private final double VELOCIDADE_lIMITE = 200;
+    private final Comprador comprador =  new Comprador();
     private String nome;
     private String modelo;
 
@@ -15,7 +16,11 @@ public final class Carro {
                 '}';
     }
 
-    public static double getVelocidadelimite() {
+    public Comprador getComprador() {
+        return comprador;
+    }
+
+    public  double getVelocidadelimite() {
         return VELOCIDADE_lIMITE;
     }
 

@@ -1,4 +1,4 @@
-package br.com.estudosjava.javacore.Zcolecoes.Teste;
+package br.com.estudosjava.javacore.Zcolecoes.ArrayList;
 
 import br.com.estudosjava.javacore.Zcolecoes.Classes.CelularColecoes;
 
@@ -22,6 +22,7 @@ public class ListCelularTest {
             System.out.println(celular);
         }
         CelularColecoes c4 = new CelularColecoes("Iphone 8", "987654");
+        //contains verifica se existe
         System.out.println(celularList.contains(c4));
 
 
