@@ -7,6 +7,6 @@ public class CarrosCorVerdePredicate implements CarroPredicate {
 
     @Override
     public boolean test(Carro carro) {
-        return carro.getCor().equals("Verde");
+        return carro.getCor().equals("verde");
     }
 }
