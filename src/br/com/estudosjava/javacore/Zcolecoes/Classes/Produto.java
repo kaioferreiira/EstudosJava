@@ -1,6 +1,6 @@
 package br.com.estudosjava.javacore.Zcolecoes.Classes;
 
-public class Produto  implements  Comparable<Produto>{
+public class Produto implements Comparable<Produto> {
 
     private Long id;
     private String nome;
@@ -12,6 +12,7 @@ public class Produto  implements  Comparable<Produto>{
         this.nome = nome;
         this.preco = preco;
     }
+
 
     @Override
     public int compareTo(Produto outroObjeto) {
@@ -35,9 +36,7 @@ public class Produto  implements  Comparable<Produto>{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Produto produto = (Produto) o;
-
         return id != null ? id.equals(produto.id) : produto.id == null;
     }
 
@@ -69,6 +68,5 @@ public class Produto  implements  Comparable<Produto>{
     public void setPreco(Double preco) {
         this.preco = preco;
     }
-
 
 }
