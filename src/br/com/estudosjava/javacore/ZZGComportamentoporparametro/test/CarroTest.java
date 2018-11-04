@@ -13,7 +13,9 @@ import java.util.function.Predicate;
 import static java.util.Arrays.asList;
 
 public class CarroTest {
-    /* private static List<Carro> filtrarCarroPrata(List<Carro> carros) {
+
+    //* INIOCIO CODE ANTIGO, NÃO SE DEVE USAR */
+    private static List<Carro> filtrarCarroPrata(List<Carro> carros) {
          List<Carro> result = new ArrayList<>();
          for (Carro carro : carros) {
              if (carro.getCor().equals("prata"))
@@ -66,7 +68,8 @@ public class CarroTest {
         }
         return result;
     }
-     */
+
+     //* FIM DO CODE ANTIGO, NÃO SE DEVE USAR */
 
     public static <T> List<T> filtrar(List<T> list, Predicate<T> predicate) {
         List<T> result = new ArrayList<>();
