@@ -1,4 +1,4 @@
-package br.com.estudosjava.javacore.Zcolecoes.ArrayList;
+package br.com.estudosjava.javacore.Zcolecoes.Classes;
 
 import br.com.estudosjava.javacore.Zcolecoes.Classes.CelularColecoes;
 

@@ -1,12 +1,10 @@
 package br.com.estudosjava.javacore.ZZKstreams.testes;
 
-import br.com.estudosjava.javacore.ZZKstreams.classes.Pessoa;
-
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
+
+import br.com.estudosjava.javacore.ZZKstreams.classes.Pessoa;
 
 public class StreamTest {
 
@@ -45,14 +43,23 @@ public class StreamTest {
         //FIM COM JAVA 7
         //INICIO JAVA 8 STREM
 
-        List<String> nomes2 = pessoas.stream()
-                .filter(p -> p.getIdade() < 25 ) //filtrando dados pelo nome
-                .sorted(Comparator.comparing(Pessoa::getNome)) //ordenando dados pelo nome
-                .limit(3) //limitando ao maximo 3 pessoas
-                .map(Pessoa::getNome)//retornando a coleção, o map pega um valor e retorna outro.
-                .collect(Collectors.toList());  //depois que pegar o nome das pessoas cria uma lista com essa coleção, coleta e joga em uma lista
+//        List<String> nomes2 = pessoas.stream()
+//                .filter(p -> p.getIdade() < 25 ) //filtrando dados pelo nome
+//                .sorted(Comparator.comparing(Pessoa::getNome)) //ordenando dados pelo nome
+//                .limit(3) //limitando ao maximo 3 pessoas
+//                .map(Pessoa::getNome)//retornando a coleção, o map pega um valor e retorna outro.
+//                .collect(Collectors.toList());  //depois que pegar o nome das pessoas cria uma lista com essa coleção, coleta e joga em uma lista
+//
+//        System.out.println(nomes2);
 
-        System.out.println(nomes2);
+        long nomes3 = pessoas
+                .stream()
+                .filter(p -> p.getIdade() < 25 ) //filtrando dados pelo nome
+                .map(Pessoa::getNome)//retornando a coleção, o map pega um valor e retorna outro.
+                .count();
+
+        System.out.println(nomes3);
+
     }
 
 

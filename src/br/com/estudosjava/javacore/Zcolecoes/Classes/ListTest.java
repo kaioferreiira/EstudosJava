@@ -1,12 +1,12 @@
-package br.com.estudosjava.javacore.Zcolecoes.ArrayList;
-
-import br.com.estudosjava.javacore.Hheranca.classes.Pessoa;
+package br.com.estudosjava.javacore.Zcolecoes.Classes;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListTest {
+
     static int RESULT = 0;
+
     public static void main(String[] args) {
 
         List <String> nomes =  new ArrayList<String>();
@@ -20,6 +20,7 @@ public class ListTest {
         nomes2.add("Lucas Ferreira 4");
         nomes2.add("Lucas Ferreira 5");
         nomes.addAll(nomes2);
+
         for(int i = 0; i<nomes.size() ;i++){
             System.out.println(nomes.get(i));
         }
@@ -29,6 +30,7 @@ public class ListTest {
         numeros.add(1);
         numeros.add(1);
         numeros.add(1);
+
         for(int i = 0; i<numeros.size() ;i++){
              RESULT += numeros.get(i);
         }
