@@ -1,10 +1,9 @@
-package br.com.estudosjava.JavaExerciciosResolvidos.Codenation.Classes;
+package br.com.estudosjava.javacore.ZZKstreams.classes;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Jogador {
-
 
     private Long id;
     private Long idTime;
@@ -12,11 +11,6 @@ public class Jogador {
     private LocalDate dataNascimento;
     private Integer nivelHabilidade;
     private BigDecimal salario;
-
-
-
-    public Jogador() {
-    }
 
     public Jogador(Long id, Long idTime, String nome, LocalDate dataNascimento, Integer nivelHabilidade, BigDecimal salario) {
         this.id = id;
@@ -26,7 +20,6 @@ public class Jogador {
         this.nivelHabilidade = nivelHabilidade;
         this.salario = salario;
     }
-
 
 
     public Long getId() {
@@ -75,5 +68,17 @@ public class Jogador {
 
     public void setSalario(BigDecimal salario) {
         this.salario = salario;
+    }
+
+    @Override
+    public String toString() {
+        return "Jogador { "
+                + " id: " + id
+                + ", idTime: " + idTime
+                + ", nome: '" + nome + '\''
+                + ", dataNascimento: " + dataNascimento
+                + ", nivelHabilidade: " + nivelHabilidade
+                + ", salario: " + salario
+                + " }";
     }
 }

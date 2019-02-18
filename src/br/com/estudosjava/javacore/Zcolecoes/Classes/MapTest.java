@@ -23,10 +23,5 @@ public class MapTest {
             System.out.println(entry.getKey() + "  " + entry.getValue());
         }
 
-
-
-
-
-
     }
 }

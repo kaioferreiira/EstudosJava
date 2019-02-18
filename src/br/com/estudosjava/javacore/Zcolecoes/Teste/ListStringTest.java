@@ -1,9 +1,9 @@
-package br.com.estudosjava.javacore.Zcolecoes.Classes;
+package br.com.estudosjava.javacore.Zcolecoes.Teste;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListTest {
+public class ListStringTest {
 
     static int RESULT = 0;
 

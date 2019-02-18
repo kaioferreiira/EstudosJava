@@ -4,17 +4,12 @@ import java.time.LocalDate;
 
 public class Time {
 
-
     private Long id;
     private String nome;
     private LocalDate dataCriacao;
     private String corUniformePrincipal;
     private String corUniformeSecundario;
-    private Long idCapitao;
 
-
-    public Time() {
-    }
 
     public Time(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal, String corUniformeSecundario) {
         this.id = id;
@@ -25,24 +20,7 @@ public class Time {
     }
 
 
-    @Override
-    public String toString() {
-        return "Time { "
-                + " id: " + id
-                + ", nome: '" + nome + '\''
-                + ", dataCriacao: " + dataCriacao
-                + ", corUniformePrincipal: '" + corUniformePrincipal + '\''
-                + ", corUniformeSecundario: '" + corUniformeSecundario + '\''
-                + " }";
-    }
 
-    public Long getIdCapitao() {
-        return idCapitao;
-    }
-
-    public void setIdCapitao(Long idCapitao) {
-        this.idCapitao = idCapitao;
-    }
 
     public Long getId() {
         return id;
@@ -82,5 +60,16 @@ public class Time {
 
     public void setCorUniformeSecundario(String corUniformeSecundario) {
         this.corUniformeSecundario = corUniformeSecundario;
+    }
+
+    @Override
+    public String toString() {
+        return "Time { "
+                + " id: " + id
+                + ", nome: '" + nome + '\''
+                + ", dataCriacao: " + dataCriacao
+                + ", corUniformePrincipal: '" + corUniformePrincipal + '\''
+                + ", corUniformeSecundario: '" + corUniformeSecundario + '\''
+                + " }";
     }
 }

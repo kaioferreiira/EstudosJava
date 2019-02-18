@@ -1,11 +1,11 @@
-package br.com.estudosjava.javacore.Zcolecoes.Classes;
+package br.com.estudosjava.javacore.Zcolecoes.Teste;
 
 import br.com.estudosjava.javacore.Zcolecoes.Classes.CelularColecoes;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListCelularTest {
+public class ListCelularObjectTest {
 
     public static void main(String[] args) {
 

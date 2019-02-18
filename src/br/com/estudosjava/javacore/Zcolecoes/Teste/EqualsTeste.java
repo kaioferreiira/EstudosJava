@@ -13,7 +13,7 @@ public class EqualsTeste {
         System.out.println(nome1.equals(nome2));
 
         Integer n1 =  5;
-        Integer n2 =   new Integer(5);
+        Integer n2 =  new Integer(5);
         System.out.println(n1 == n2);
         System.out.println(n1.equals(n2));
 

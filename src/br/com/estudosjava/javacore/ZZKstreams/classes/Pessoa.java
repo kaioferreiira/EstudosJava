@@ -21,7 +21,8 @@ public class Pessoa {
                 new Pessoa("lucas", 75, 2300.00),
                 new Pessoa("flavio", 45, 4300.00),
                 new Pessoa("sergio", 15, 5300.00),
-                new Pessoa("rafael", 22, 8300.00)
+                new Pessoa("rafael", 22, 8300.00),
+                new Pessoa("piva", 43, 300.00)
         );
     }
 
