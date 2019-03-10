@@ -8,7 +8,7 @@ import br.com.estudosjava.javacore.ZZKstreams.classes.Pessoa;
 
 public class StreamTest {
 
-    //pegar os tres primeiros nomes com < de 25 anos ordenados pelo nome
+    //pegar  os tres primeiros nomes com < de 25 anos ordenados pelo nome
 
     public static void main(String[] args) {
 

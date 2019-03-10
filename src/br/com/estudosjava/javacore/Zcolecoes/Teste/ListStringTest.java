@@ -21,8 +21,8 @@ public class ListStringTest {
         nomes2.add("Lucas Ferreira 5");
         nomes.addAll(nomes2);
 
-        for(int i = 0; i<nomes.size() ;i++){
-            System.out.println(nomes.get(i));
+        for(String nome: nomes){
+            System.out.println("Nome: " + nome);
         }
 
         System.out.println();
