@@ -46,7 +46,6 @@ public class ProdutoTest {
         return valorTotal ;
     }
 
-
     public static Produto encontraMaioPreco(){
         Produto maiorPreco  =  listaDeProdutos.stream()
                                                 .max((produto1, produto2) -> produto1.getPreco() > produto2.getPreco() ? 1 : -1).get();
