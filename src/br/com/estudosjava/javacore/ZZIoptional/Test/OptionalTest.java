@@ -12,7 +12,7 @@ public class OptionalTest {
 
         OptionalTest optionalTest = new OptionalTest();
         if (optionalTest.nome !=  null) {
-            System.out.println(optionalTest.nome.toLowerCase());
+            System.out.println(optionalTest.nome.toUpperCase());
         }
 
         Optional<String> optional1 = Optional.of(optionalTest.nome);
