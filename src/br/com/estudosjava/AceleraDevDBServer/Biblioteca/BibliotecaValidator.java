@@ -4,9 +4,9 @@ import br.com.estudosjava.javacore.Gassociacao.classes.Local;
 
 import java.time.LocalDate;
 
-public class Biblioteca {
+public class BibliotecaValidator {
 
-    public void cadastrarLivro(Livro livro){
+    public void validarCadastroLivro(Livro livro){
 
         if (livro.getQuantidadePaginas() <= 50){
             throw new RuntimeException("Livro contem menos que 50 paginas ");
@@ -21,7 +21,7 @@ public class Biblioteca {
 
     }
 
-    public void cadastrarAutor(Livro livro){
+    public void validatCadastroAutor(Livro livro){
 
         if (livro.getAutor() == null){
             throw new RuntimeException("Nao foi cadastrado o Autor");

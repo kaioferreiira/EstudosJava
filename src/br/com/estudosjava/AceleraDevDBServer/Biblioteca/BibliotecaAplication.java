@@ -1,12 +1,11 @@
 package br.com.estudosjava.AceleraDevDBServer.Biblioteca;
 
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
 
-public class BibliotecaTest {
+public class BibliotecaAplication {
 
-    private static Biblioteca biblioteca = new Biblioteca();
+    private static BibliotecaValidator bibliotecaValidator = new BibliotecaValidator();
 
 
     public static void main(String[] args) {
@@ -26,8 +25,8 @@ public class BibliotecaTest {
         autor.setCpf("12345678912");
         autor.setIdade(25);
 
-        biblioteca.cadastrarLivro(livro1);
-        biblioteca.cadastrarAutor(livro1);
+        bibliotecaValidator.validarCadastroLivro(livro1);
+        bibliotecaValidator.validatCadastroAutor(livro1);
 
 
         //CHAMAR DAO E SALVAR LIVRO NO BANCO

@@ -62,5 +62,15 @@ public class Livro {
     }
 
 
-
+    @Override
+    public String toString() {
+        return "Livro{" +
+                "autor=" + autor +
+                ", nome='" + nome + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", quantidadePaginas=" + quantidadePaginas +
+                ", disponivel=" + disponivel +
+                ", anoPublicacao=" + anoPublicacao +
+                '}';
+    }
 }
